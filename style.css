@@ -1,0 +1,2681 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+body {
+    width: 100vw;
+}
+
+header {
+    width: 100%;
+}
+
+button {
+    border-radius: 30px;
+    background-color: #47b2e4;
+    height: 40px;
+    border: hidden;
+    color: white;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #1c78aa;
+}
+
+/* ==========================================header======================================================================== */
+header .container {
+    width: 100%;
+    height: 700px;
+    background-color: #37517e;
+
+
+
+
+}
+
+header .container1 {
+    display: flex;
+}
+
+header .div1 {
+    width: 30%;
+    /* background-color: green; */
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+header .container2 {
+    padding-left: 50px;
+    padding-right: 100px;
+    width: 70%;
+    height: 70px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+
+
+}
+
+.container2 div:hover {
+    color: #449dcd;
+}
+
+header .button1 {
+    width: 120px;
+
+}
+
+header .container .container3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 630px;
+    justify-content: space-around;
+
+
+}
+
+header .container .half1 {
+    width: 30%;
+    height: 350px;
+    ;
+    /* background-color: red; */
+    color: white;
+
+
+
+
+
+
+}
+
+header .container .half2 {
+    width: 30%;
+    height: 350px;
+    ;
+    /* background-color: green; */
+    position: relative;
+
+}
+
+header .container .half2 img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    animation-name: photomotion;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    margin-top: 0px;
+    animation-iteration-count: infinite;
+
+}
+
+header .container .half1 .nos1 {
+    margin-bottom: 10px;
+    font-size: 30px;
+
+}
+
+header .container .half1 .nos2 {
+    font-size: 25px;
+    color: #e4e4e4;
+    margin-bottom: 30px;
+}
+
+/* header .container .half1 .nos3 {} */
+
+
+
+header .container .half1 .nos3 .button2 {
+    width: 130px;
+    border: hidden;
+
+}
+
+header .container .half1 .nos4 {
+
+    font-size: 27px;
+    margin-left: 15px;
+    margin-top: 3px;
+
+
+
+
+}
+
+header .container .half1 .iconcontainer {
+    display: flex;
+
+}
+
+header .container .half1 .nos5 {
+    margin-left: 10px;
+    margin-top: 7px;
+
+}
+
+header .container .half1 .nos5:hover {
+    color: #449dcd;
+}
+
+@keyframes photomotion {
+
+    25% {
+        margin-top: -10px;
+
+    }
+
+    50% {
+        margin-top: 0px;
+    }
+
+    75% {
+        margin-top: 10px;
+    }
+}
+
+/* =====================================main================================================================= */
+section .bar {
+    height: 70px;
+    width: 100%;
+    background-color: #d5d5d5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section .bar .pic1,
+.pic2,
+.pic3,
+.pic4,
+.pic5,
+.pic6 {
+    width: 16.666666%;
+    height: 100%;
+    /* background-color: red;
+    border: solid;
+    border-color: black; */
+}
+
+section .bar img {
+    width: 30%;
+    height: 30%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+section .bar .pic1 {
+    margin-left: 80px;
+}
+
+section .bar .pic2 {
+    margin-top: -4px;
+}
+
+section .aboutus {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 70px;
+    /* background-color: green; */
+    color: #37517e;
+    margin-top: 30px;
+    position: relative;
+    /* border-bottom: solid; */
+    margin-bottom: 50px;
+}
+
+section .aboutus h1 {
+    font-size: 30px;
+    border-bottom: solid 2px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-color: #d5d5d5;
+
+
+
+}
+
+section .prags {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 650px;
+    /* background-color: red; */
+    color: #413e3e;
+
+}
+
+section .prags .prag1,
+.prag2 {
+    width: 40%;
+    height: 70%;
+    /* background-color: green; */
+    font-size: 20px;
+
+}
+
+section .prags .prag1 .headprag {
+    margin-bottom: 20px;
+}
+
+section .prags .prag1 .secprag1 {
+    margin-bottom: 20px;
+
+}
+
+section .prags .prag1 .secprag2 {
+    margin-bottom: 20px;
+}
+
+section .prags .prag1 .secprag3 {
+    margin-bottom: 20px;
+}
+
+.fa-circle-check {
+    color: #47b2e4;
+}
+
+.pragbutton {
+    border-radius: 7px;
+    background-color: white;
+    border: solid 2px;
+    color: #449dcd;
+    width: 150px;
+}
+
+section .prags .prag2 .secprag4 {
+    margin-bottom: 20px;
+}
+
+/* -----------------------container3------------------------------------------------------------ */
+section .container3 {
+    /* width: 100%; */
+    height: 600px;
+    background-color: #d5d5d5;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+section .container3 .container4 {
+    width: 40%;
+    /* background-color: red; */
+    height: 450px;
+    margin-left: -50px;
+    margin-top: -70px;
+}
+
+section .container3 .picdiv {
+    position: relative;
+    width: 30%;
+    height: 450px;
+    /* background-color: green; */
+}
+
+section .container3 .container4 .mainprag {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #37517e;
+}
+
+section .container3 .container4 .box1 {
+
+    width: 100%;
+    height: 130px;
+    background-color: white;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding-top: 15px;
+    box-shadow: 3px 3px 20px 3px gray;
+
+
+
+}
+
+section .container3 .container4 .box2 {
+    width: 100%;
+    height: 65px;
+    background-color: white;
+    margin-bottom: 15px;
+    padding-top: 15px;
+    box-shadow: 3px 3px 20px 3px gray;
+
+}
+
+section .container3 .container4 .box3 {
+    width: 100%;
+    height: 65px;
+    background-color: white;
+    padding-top: 15px;
+    box-shadow: 3px 3px 20px 3px gray;
+
+
+}
+
+section .container3 .container4 .filler {
+    color: #413e3e;
+}
+
+section .container3 .container4 h4 {
+    color: #37517e;
+    margin-left: 15px;
+
+}
+
+section .container3 .container4 .filler2 {
+    color: #413e3e;
+    margin: 15px;
+}
+
+.container4 span {
+    color: #47b2e4;
+}
+
+.container4 .box1 h4:hover {
+    color: #449dcd;
+}
+
+.container4 .box2 h4:hover {
+    color: #449dcd;
+}
+
+.container4 .box3 h4:hover {
+    color: #449dcd;
+}
+
+.container4 .box1 p:hover {
+    color: #449dcd;
+}
+
+.picdiv img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    animation-name: photomotion;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    margin-top: 0px;
+    animation-iteration-count: infinite;
+}
+
+/* ----------------------------------container3------------------------------------------------------ */
+
+/* ---------------------------------------container5-------------------------------------------------- */
+section .container5 {
+    width: 100%;
+    height: 500px;
+    background-color: white;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+section .container5 .half1 {
+    width: 35%;
+    height: 350px;
+    /* background-color: yellow; */
+    /* margin-right: -220px; */
+}
+
+section .container5 .half1 img {
+    width: 100%;
+    height: 100%;
+}
+
+section .container5 .half2 {
+    width: 35%;
+    height: 350px;
+    /* background-color: green; */
+}
+
+section .container5 .half2 h1 {
+    color: #37517e;
+    margin-bottom: 15px;
+}
+
+section .container5 .half2 p {
+    color: #413e3e;
+    margin-bottom: 15px;
+}
+
+section .container5 .half2 .bar1,
+.bar2,
+.bar3,
+.bar4 {
+    background-color: #37517e;
+
+    height: 10px;
+    margin-bottom: 20px;
+}
+
+section .container5 .half2 .nesba1 {
+    display: inline-block;
+    /* margin-right: 85%;
+    margin-bottom: 10px; */
+}
+
+
+section .container5 .half2 .nesba2 {
+    display: inline-block;
+    /* margin-right: 89%;
+    margin-bottom: 10px; */
+}
+
+section .container5 .half2 .nesba3 {
+    display: inline-block;
+    /* margin-right: 419px;
+    margin-bottom: 10px; */
+}
+
+section .container5 .half2 .nesba4 {
+    display: inline-block;
+    /* margin-right: 77%;
+    margin-bottom: 10px; */
+}
+
+section .container5 .half2 span {
+    float: right;
+}
+
+section .container5 .half2 .bar1 {
+    width: 100%;
+    animation-name: barwidth1;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    /* animation-delay: 5s; */
+
+}
+
+section .container5 .half2 .bar2 {
+    width: 90%;
+    animation-name: barwidth2;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    /* animation-delay: 5s; */
+
+}
+
+section .container5 .half2 .bar3 {
+    width: 75%;
+    animation-name: barwidth3;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    /* animation-delay: 5s; */
+
+}
+
+section .container5 .half2 .bar4 {
+    width: 55%;
+    animation-name: barwidth4;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    /* animation-delay: 5s; */
+
+}
+
+@keyframes barwidth1 {
+    0% {
+        width: 0%;
+        height: 10px;
+    }
+
+    100% {
+        width: 100%;
+        height: 10px;
+    }
+}
+
+@keyframes barwidth2 {
+    0% {
+        width: 0%;
+        height: 10px;
+    }
+
+    100% {
+        width: 90%;
+    }
+}
+
+@keyframes barwidth3 {
+    0% {
+        width: 0%;
+        height: 10px;
+    }
+
+    100% {
+        width: 75%;
+    }
+}
+
+@keyframes barwidth4 {
+    0% {
+        width: 0%;
+        height: 10px;
+    }
+
+    100% {
+        width: 55%;
+    }
+}
+
+/* -------------------------------------container5--------------------------------------------- */
+
+
+/* -----------------container6-------------------------------------------------------- */
+/*============================services============================================================================ */
+/* section .aboutus h1{
+    font-size: 30px;
+    border-bottom: solid 2px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-color: #d5d5d5;} */
+
+section .container6 {
+    width: 100%;
+    height: 500px;
+    background-color: #d5d5d5;
+
+
+}
+
+section .container6 .services {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 70px;
+    /* background-color: green; */
+    color: #37517e;
+    margin-top: 30px;
+    position: relative;
+    /* border-bottom: solid; */
+    margin-bottom: 50px;
+
+}
+
+section .container6 .services h1 {
+    margin-top: 50px;
+    font-size: 30px;
+    border-bottom: solid 2px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-color: #47b2e4;
+}
+
+section .container6 .secprag1 {
+    margin-left: 34%;
+    color: #413e3e;
+    margin-bottom: 50px;
+}
+
+section .seccontainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    justify-content: center;
+
+}
+
+section .seccontainer .div1 {
+    background-color: white;
+    width: 210px;
+    height: 210px;
+    box-shadow: 3px 3px 20px 3px gray;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+section .seccontainer .div1:hover {
+    transform: scale(1.05);
+}
+
+section .seccontainer .div1 .icon {
+    font-size: 35px;
+    color: #449dcd;
+    margin-top: 30px;
+
+}
+
+section .seccontainer .div1 p {
+    color: #413e3e;
+    margin-top: 10px;
+}
+
+section .seccontainer .div1 h3 {
+    color: #37517e;
+    margin-top: 15px;
+}
+
+/* ------------------------container6-------------------------------------------- */
+
+section .call {
+    width: 100%;
+    height: 200px;
+    background-color: #37517e;
+    padding-top: 100px;
+
+
+
+
+
+}
+
+section .call .head {
+    margin-left: 150px;
+    color: white;
+    display: inline-block;
+
+
+}
+
+section .call .prag {
+    color: white;
+    width: 50%;
+    margin-left: 150px;
+    margin-top: 10px;
+}
+
+section .call button {
+    width: 150px;
+    background-color: #37517e;
+    border: solid white 2px;
+    display: inline-block;
+    margin-left: 200px;
+    ;
+    margin-top: 20px;
+
+}
+
+section .call button:hover {
+    background-color: white;
+    color: #413e3e;
+}
+
+/* ========================================portfolio==================================== */
+section .container7 {
+    width: 100%;
+    height: 1200px;
+    /* background-color: antiquewhite; */
+}
+
+section .container7 .portfolio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 70px;
+    /* background-color: green; */
+    color: #37517e;
+
+    position: relative;
+    /* border-bottom: solid; */
+    margin-bottom: 50px;
+
+}
+
+section .container7 .portfolio h1 {
+    margin-top: 50px;
+    font-size: 30px;
+    border-bottom: solid 2px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-color: #413e3e;
+}
+
+section .container7 .portdesc {
+    color: #413e3e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section .container7 .buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section .container7 .buttons .special {
+    width: 70px;
+    margin: 8px;
+    margin-top: 30px;
+
+}
+
+section .container7 .buttons .normal {
+    margin: 8px;
+    background-color: #d5d5d5;
+    width: 70px;
+    margin-top: 30px;
+    color: #47b2e4;
+}
+
+section .container7 .buttons .normal:hover {
+    background-color: #47b2e4;
+    color: #e4e4e4;
+}
+
+/* ------products---------- */
+
+
+section .container7 .products {
+    width: 100%;
+    height: 900px;
+    display: flex;
+    /* background-color: red; */
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+
+}
+
+section .container7 .products .pro1 {
+    width: 250px;
+    height: 300px;
+    margin-top: 10px;
+    position: relative;
+}
+
+section .container7 .products .pro2 {
+    width: 300px;
+    height: 200px;
+    margin-top: 10px;
+    position: relative;
+}
+
+section .container7 .products .pro3 {
+    width: 250px;
+    height: 180px;
+    margin-top: 10px;
+    position: relative;
+}
+
+section .container7 .products .pro4 {
+    width: 250px;
+    height: 180px;
+    margin-top: 10px;
+    position: relative;
+}
+
+section .container7 .products .pro5 {
+    width: 300px;
+    height: 400px;
+    margin-top: 10px;
+    position: relative;
+}
+
+section .container7 .products .pro6 {
+    width: 250px;
+    height: 400px;
+    margin-top: 10px;
+    position: relative;
+}
+
+section .container7 .products .pro7 {
+    width: 250px;
+    height: 180px;
+    margin-top: 10px;
+    position: relative;
+}
+
+section .container7 .products .pro8 {
+    width: 250px;
+    height: 180px;
+    margin-top: 10px;
+    position: relative;
+}
+
+section .container7 .products .pro9 {
+    width: 300px;
+    height: 200px;
+    margin-top: 10px;
+    position: relative;
+}
+
+section .container7 .products img {
+    width: 100%;
+    height: 100%;
+
+}
+
+section .products .div1 {
+    margin-left: 100px;
+    margin-bottom: 200px;
+    margin-top: 0px;
+
+}
+
+section .products .div2 {
+    margin-bottom: 50px;
+
+
+}
+
+section .products .div3 {
+    margin-right: 100px;
+    margin-bottom: 180px;
+    margin-top: 20px;
+
+}
+
+.content1,
+.content2,
+.content3,
+.content4,
+.content5,
+.content6,
+.content7,
+.content8,
+.content9 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.329);
+    overflow: hidden;
+    transform: scale(0);
+    transition: all 1s ease-in-out;
+    border-radius: 20px;
+
+
+
+
+
+}
+
+section .container7 .products .pro1:hover .content1 {
+    transform: scale(1);
+}
+
+section .container7 .products .pro2:hover .content2 {
+    transform: scale(1);
+}
+
+section .container7 .products .pro3:hover .content3 {
+    transform: scale(1);
+}
+
+section .container7 .products .pro4:hover .content4 {
+    transform: scale(1);
+}
+
+section .container7 .products .pro5:hover .content5 {
+    transform: scale(1);
+}
+
+section .container7 .products .pro6:hover .content6 {
+    transform: scale(1);
+}
+
+section .container7 .products .pro7:hover .content7 {
+    transform: scale(1);
+}
+
+section .container7 .products .pro8:hover .content8 {
+    transform: scale(1);
+}
+
+section .container7 .products .pro9:hover .content9 {
+    transform: scale(1);
+}
+
+section .products p {
+    margin: 20%;
+    color: aliceblue;
+}
+
+/* -----------------------------products-------------------------------------------- */
+/* -----------------------------------------------responsive---------------------------------------------------------------------------- */
+
+
+/* tablet */
+/* ===========================================header================================================================================== */
+
+@media (max-width : 768px) {
+    header .container .container2 {
+        margin: 0px 5px;
+        justify-content: space-between;
+        padding: 0px;
+
+
+
+    }
+
+    header .container .container2 .divs {
+        margin: 0px 5px;
+        font-size: 12px;
+    }
+
+    header .container .container1 .div1 {
+        width: 25%;
+        margin-left: 5px;
+
+    }
+
+    header .container .container3 {
+        flex-wrap: wrap;
+        width: 100%;
+
+    }
+
+    header .container .container3 .half1 {
+
+        width: 80%;
+        height: auto;
+        margin-left: 130px;
+        margin-bottom: 20px;
+
+    }
+
+    header .container .container3 .half1 .nos1 {
+        font-size: 20px;
+    }
+
+    header .container .container3 .half1 .nos2 {
+        font-size: 17px;
+    }
+
+    header .container .container3 .half2 {
+        width: 80%;
+        order: -1;
+    }
+
+    /* ==========================================header================================== */
+    /* =======================about us ========================================== */
+    section .prags {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        /* background-color: red; */
+        color: #413e3e;
+        padding-bottom: 40px;
+        flex-wrap: wrap;
+
+    }
+
+    section .prags .prag1 {
+        font-size: 17px;
+        width: 80%;
+    }
+
+    section .prags .prag2 {
+        font-size: 17px;
+        width: 80%;
+    }
+
+    section .container3 {
+        height: 900px;
+        flex-wrap: wrap;
+        padding: 25px;
+    }
+
+    section .container3 .container4 {
+        width: 90%;
+
+    }
+
+    section .container3 .container4 .mainprag {
+        font-size: 28px;
+        margin-top: -20px;
+
+    }
+
+    section .container3 .container4 {
+        font-size: 17px;
+    }
+
+    section .container3 .picdiv {
+        width: 80%;
+        order: -1;
+        height: 30vh;
+    }
+
+    section .container3 .container4 .box1,
+    .box2 {
+        height: auto;
+        padding-bottom: 10px;
+    }
+
+    section .container5 {
+        width: 100%;
+        height: auto;
+        /* background-color: white;
+        background-color: red;
+        display: flex;
+        align-items: center;
+        justify-content: space-around; */
+        flex-wrap: wrap;
+    }
+
+    section .container5 .half1 {
+        width: 80%;
+        height: 350px;
+        /* background-color: yellow; */
+        /* margin-right: -220px; */
+        margin-left: 150px;
+
+    }
+
+    section .container5 .half1 img {
+        width: 80%;
+        height: 80%;
+        margin-top: 20px;
+        /* margin-right: 50px; */
+
+    }
+
+    section .container5 .half2 {
+        width: 80%;
+        height: 350px;
+        /* background-color: green; */
+    }
+
+    section .container6 .secprag1 {
+        margin-left: 17%;
+        color: #413e3e;
+        margin-bottom: 50px;
+    }
+
+    section .seccontainer {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        justify-content: center;
+
+    }
+
+    section .call {
+        width: 100%;
+        height: 200px;
+        background-color: #37517e;
+        padding-top: 50px;
+        padding-bottom: 20px;
+
+
+
+
+
+    }
+
+    /* ================================portofolio=========================================== */
+    section .container7 .products {
+        width: 100%;
+        height: 900px;
+        display: flex;
+        /* background-color: red; */
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        flex-direction: column;
+
+
+    }
+
+    section .products .div1 {
+        margin-left: 2px;
+        margin-bottom: 200px;
+        margin-top: 20px;
+        margin-right: 5px;
+
+    }
+
+    section .products .div2 {
+        margin-bottom: 50px;
+        margin-right: 5px;
+        margin-top: 10px;
+
+
+    }
+
+    section .products .div3 {
+        margin-right: 0px;
+        margin-bottom: 180px;
+        margin-top: 20px;
+
+
+    }
+
+    section .container7 .products img {
+        width: 100%;
+        height: 100%;
+
+    }
+
+    section .container7 .products .pro1 {
+        width: 200px;
+        height: 240px;
+        margin-top: 10px;
+        position: relative;
+    }
+
+    section .container7 .products .pro2 {
+        width: 260px;
+        height: 160px;
+        margin-top: 10px;
+        position: relative;
+    }
+
+    section .container7 .products .pro3 {
+        width: 200px;
+        height: 150px;
+        margin-top: 10px;
+        position: relative;
+    }
+
+    section .container7 .products .pro4 {
+        width: 200px;
+        height: 150px;
+        margin-top: 10px;
+        position: relative;
+    }
+
+    section .container7 .products .pro5 {
+        width: 260px;
+        height: 320px;
+        margin-top: 10px;
+        position: relative;
+    }
+
+    section .container7 .products .pro6 {
+        width: 200px;
+        height: 320px;
+        margin-top: 10px;
+        position: relative;
+    }
+
+    section .container7 .products .pro7 {
+        width: 200px;
+        height: 150px;
+        margin-top: 10px;
+        position: relative;
+    }
+
+    section .container7 .products .pro8 {
+        width: 200px;
+        height: 150px;
+        margin-top: 10px;
+        position: relative;
+    }
+
+    section .container7 .products .pro9 {
+        width: 260px;
+        height: 160px;
+        margin-top: 10px;
+        position: relative;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* =======================about us ========================================== */
+
+
+
+
+}
+
+/* tablet end  */
+
+/* mobile */
+/* =========================================header======================================================================= */
+@media (max-width : 551px) {
+    header .container .container2 {
+        display: none;
+    }
+
+    header .container .container1 .div1 {
+        width: 100%;
+    }
+
+    header .container .container3 {
+        flex-wrap: wrap;
+
+
+    }
+
+    header .container .container3 .half1 {
+
+        width: 80%;
+        height: auto;
+        margin: 0px;
+    }
+
+    header .container .container3 .half1 .nos1 {
+        font-size: 15px;
+    }
+
+    header .container .container3 .half1 .nos2 {
+        font-size: 13px;
+    }
+
+    header .container .container3 .half2 {
+        width: 80%;
+        height: 300px;
+        order: -1;
+    }
+
+    /* =========================================header======================================================================= */
+    /* ==============================bar================================= */
+    section .bar {
+        height: 70px;
+        width: 100%;
+        background-color: #d5d5d5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    section .bar img {
+        margin: 0px;
+    }
+
+    section .bar .pic1,
+    .pic2,
+    .pic3,
+    .pic4,
+    .pic5,
+    .pic6 {
+        width: 40%;
+        height: 100%;
+        margin-left: 30px;
+        margin-right: 30px;
+
+        /* background-color: red;
+    border: solid;
+    border-color: black; */
+    }
+
+    section .bar .pic1 {
+        margin-top: 7px;
+    }
+
+    section .bar img {
+        width: 90%;
+        height: 90%;
+        /* margin-top: 20px;
+    margin-bottom: 20px; */
+    }
+
+    section .bar .pic3,
+    .pic4,
+    .pic5,
+    .pic6 {
+        width: 40%;
+        height: 100%;
+        display: none;
+        /* background-color: red;
+    border: solid;
+    border-color: black; */
+    }
+
+
+    /* =======================================bar================================ */
+    /* =======================about us ========================================== */
+    section .aboutus h1 {
+        font-size: 25px;
+        border-bottom: solid 2px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        border-color: #d5d5d5;
+
+
+
+    }
+
+    section .prags {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        /* background-color: red; */
+        color: #413e3e;
+        padding-bottom: 40px;
+        flex-wrap: wrap;
+
+    }
+
+    section .prags .prag1 {
+        font-size: 17px;
+        width: 80%;
+    }
+
+    section .prags .prag2 {
+        font-size: 17px;
+        width: 80%;
+    }
+
+    section .container3 {
+        height: 1000px;
+        flex-wrap: wrap;
+        padding: 25px;
+    }
+
+    section .container3 .container4 {
+        width: 90%;
+
+    }
+
+    section .container3 .container4 .mainprag {
+        font-size: 20px;
+        margin-top: -100px;
+
+    }
+
+    section .container3 .container4 {
+        font-size: 14px;
+    }
+
+    section .container3 .picdiv {
+        width: 80%;
+        order: -1;
+        height: 30vh;
+    }
+
+    section .container3 .container4 .box1,
+    .box2 {
+        height: auto;
+        padding-bottom: 10px;
+
+    }
+
+    section .container5 .half1 {
+        width: 80%;
+        height: 200px;
+        /* background-color: yellow; */
+        /* margin-right: -220px; */
+        margin-left: 40px;
+
+    }
+
+    section .container5 .half2 h1 {
+        font-size: 20px;
+    }
+
+    section .container5 .half2 p {
+        font-size: 13px;
+
+    }
+
+    section .container5 .half1 img {
+        height: 80%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    /* =======================about us ========================================== */
+    /* =============================services===================================== */
+
+    section .container6 {
+        width: 100%;
+        height: auto;
+        background-color: #d5d5d5;
+        padding-bottom: 10px;
+
+
+    }
+
+
+
+    section .container6 .seccontainer {
+        width: 100%;
+        height: auto;
+        flex-wrap: wrap;
+
+    }
+
+    section .container6 .seccontainer .div1 {
+        width: 60%;
+
+    }
+
+    section .call {
+        width: 100%;
+        height: auto;
+        background-color: #37517e;
+        padding-top: 50px;
+
+    }
+
+    section .call .head {
+        margin-left: 80px;
+    }
+
+    section .call .prag {
+        margin-left: 80px;
+
+    }
+
+    section .call button {
+        margin-left: 80px;
+    }
+
+
+    /* ==============services===================================================== */
+    /* =========================portofolio================================================================= */
+    section .container7 .portfolio h1 {
+        margin-top: 30px;
+        font-size: 25px;
+        border-bottom: solid 2px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        border-color: #413e3e;
+    }
+
+    section .container7 .portdesc {
+        /* color: #413e3e;
+        display: flex;
+        align-items: center;
+        justify-content: center; */
+        font-size: 16px;
+        margin-left: 20px;
+    }
+
+    section .container7 .buttons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 20px;
+        padding-right: 20px;
+
+
+
+    }
+
+    section .container7 .buttons .normal {
+        margin: 20px 2px;
+    }
+
+    section .container7 .buttons .special {
+        margin: 20px 2px;
+    }
+
+    /* ==================products============================= */
+    section .container7 .products {
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        /* background-color: red; */
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        flex-direction: row;
+        justify-content: center;
+        overflow: hidden;
+
+
+    }
+
+    section .products .div1 {
+        margin-left: 2px;
+        margin-bottom: 0px;
+        margin-top: 10px;
+        margin-right: 5px;
+
+    }
+
+    section .products .div2 {
+        margin-bottom: 0px;
+        margin-right: 5px;
+        margin-top: 10px;
+
+
+    }
+
+    section .products .div3 {
+        margin-right: 0px;
+        margin-bottom: 20px;
+        margin-top: 0px;
+
+
+    }
+
+
+
+
+}
+
+/* mobile end */
+
+/* xlarge screen  */
+/* ===========================portofolio============================================== */
+@media(min-width:2200px) {
+
+    section .products .div1 {
+        margin-left: 550px;
+        margin-bottom: 200px;
+        margin-top: 0px;
+
+    }
+
+    section .products .div2 {
+        margin-bottom: 50px;
+
+
+    }
+
+    section .products .div3 {
+        margin-right: 550px;
+        margin-bottom: 180px;
+        margin-top: 20px;
+
+    }
+
+}
+
+/* xlarge screen end========================================================= */
+
+
+/* =============================================TEAM================================================================================= */
+section .team {
+    width: 100%;
+    /* background-color: red; */
+    height: 600px;
+}
+
+section .team .portfolio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 70px;
+    /* background-color: green; */
+    color: #37517e;
+
+    position: relative;
+    /* border-bottom: solid; */
+    margin-bottom: 50px;
+
+}
+
+section .team .portfolio h1 {
+    margin-top: 50px;
+    font-size: 30px;
+    border-bottom: solid 2px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-color: #413e3e;
+}
+
+section .team .portdesc {
+    color: #413e3e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section .team .teamcontainer {
+    /* background-color: green; */
+    width: 90%;
+    height: 350px;
+    margin-left: 5%;
+    margin-top: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+section .team .teamcontainer .div1 {
+    width: 45%;
+    height: 40%;
+    /* background-color: blue; */
+    border-radius: 5px;
+    box-shadow: 3px 3px 20px 3px gray;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+section .team .teamcontainer .div1 .member {
+    width: 30%;
+    height: 80%;
+    border-radius: 50%;
+    /* background-color: gray; */
+}
+
+section .team .teamcontainer .div1 .description {
+    width: 55%;
+    height: 80%;
+    /* background-color: beige; */
+}
+
+section .team .teamcontainer .div1 .member img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+section .team .teamcontainer .div1 .description h3 {
+    margin-bottom: 5px;
+    color: #37517e;
+}
+
+section .team .teamcontainer .div1 .description p {
+    color: #413e3e;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+section .team .teamcontainer .div1 .description hr {
+    width: 20%;
+}
+
+section .team .teamcontainer .div1 .description .icons {
+    display: flex;
+}
+
+section .team .teamcontainer .div1 .description .icons div {
+    background-color: #d5d5d5;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+section .team .teamcontainer .div1 .description .icons .fa-x-twitter,
+.fa-facebook,
+.fa-instagram,
+.fa-linkedin {
+    transform: scale(.9);
+    color: rgb(80, 78, 78);
+}
+
+/* ======================resposive========================== */
+/* tablet */
+@media (max-width:768px) {
+    section .team {
+        height: auto;
+    }
+
+    section .team .teamcontainer .div1 {
+        width: 80%;
+        height: 40%;
+        /* background-color: blue; */
+        border-radius: 5px;
+        box-shadow: 3px 3px 20px 3px gray;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 20px;
+        padding: 10px;
+
+
+    }
+
+    section .team .teamcontainer {
+        /* background-color: green; */
+        width: 90%;
+        height: auto;
+        margin-left: 5%;
+        margin-top: 2%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+
+/* mobile */
+@media(max-width:551px) {
+    section .team {
+        height: auto;
+        margin-top: 1000px;
+    }
+
+    section .team .teamcontainer .div1 {
+        width: 80%;
+        height: 40%;
+        /* background-color: blue; */
+        border-radius: 5px;
+        box-shadow: 3px 3px 20px 3px gray;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 20px;
+        padding: 10px;
+
+
+    }
+
+    section .team .teamcontainer {
+        /* background-color: green; */
+        width: 90%;
+        height: auto;
+        margin-left: 5%;
+        margin-top: 2%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    section .team .portdesc {
+        color: #413e3e;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 10px;
+    }
+
+}
+
+/* xlarge screen */
+@media(min-width:1600px) {
+    section .team {
+        height: auto;
+    }
+
+    section .team .teamcontainer {
+        /* background-color: green; */
+        width: 90%;
+        height: 800px;
+        margin-left: 5%;
+        margin-top: 2%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    section .team .teamcontainer .div1 {
+        width: 45%;
+        height: 40%;
+        /* background-color: blue; */
+        border-radius: 5px;
+        box-shadow: 3px 3px 20px 3px gray;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+
+    }
+
+    section .team .teamcontainer .div1 .description {
+        width: 55%;
+        height: 80%;
+        /* background-color: beige; */
+    }
+
+    section .team .teamcontainer .div1 .member img {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+    }
+
+    section .team .teamcontainer .div1 .description h3 {
+        margin-bottom: 20px;
+        color: #37517e;
+        font-size: 35px;
+    }
+
+    section .team .teamcontainer .div1 .description p {
+        color: #413e3e;
+        margin-bottom: 20px;
+        font-size: 25px;
+
+    }
+
+    section .team .portfolio h1 {
+        margin-top: 50px;
+        font-size: 45px;
+        border-bottom: solid 2px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        border-color: #413e3e;
+    }
+
+    section .team .portdesc {
+        color: #413e3e;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 25px;
+    }
+
+    section .team .teamcontainer .div1 .description .icons div {
+        /* background-color:#d5d5d5;
+    border-radius:50% ;
+    margin-top: 10px;
+    margin-left: 10px; */
+        width: 50px;
+        height: 50px;
+        /* display: inline-block;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column; */
+    }
+
+    section .team .teamcontainer .div1 .description .icons .fa-x-twitter,
+    .fa-facebook,
+    .fa-instagram,
+    .fa-linkedin {
+        transform: scale(1.7);
+        /* color: rgb(80, 78, 78); */
+    }
+
+}
+
+/* ===============================================pricing start==================================== */
+section .pricing {
+    width: 100%;
+    height: 800px;
+    background-color: #d5d5d5;
+
+}
+
+section .pricing .portfolio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 70px;
+    /* background-color: green; */
+    color: #37517e;
+
+    position: relative;
+    /* border-bottom: solid; */
+    margin-bottom: 50px;
+
+}
+
+section .pricing .portfolio h1 {
+    margin-top: 50px;
+    font-size: 30px;
+    border-bottom: solid 2px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-color: #413e3e;
+}
+
+section .pricing .portdesc {
+    color: #413e3e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section .pricing .pricingcontainer {
+    width: 100%;
+    /* background-color: rgba(255, 0, 0, 0.158); */
+    height: 600px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+section .pricing .pricingcontainer .div1 {
+    width: 23%;
+    height: 450px;
+    background-color: white;
+    box-shadow: 3px 3px 20px 3px gray;
+    border-radius: 5px;
+    transition: all .5s ease-in-out;
+    padding: 30px;
+}
+
+section .pricing .pricingcontainer .special {
+    margin-left: 20px;
+}
+
+section .pricing .pricingcontainer .special2 {
+    margin-right: 20px;
+}
+
+section .pricing .pricingcontainer .div1:hover {
+    transform: scale(1.02);
+    border-top: 7px solid #449dcd;
+
+}
+
+section .pricing .pricingcontainer .div1 .info h3 {
+    margin-bottom: 10px;
+    color: #37517e;
+}
+
+section .pricing .pricingcontainer .div1 .info p {
+    color: #b3aeae;
+    margin-bottom: 5px;
+    margin-top: 20px;
+    font-size: 18px;
+
+}
+
+section .pricing .pricingcontainer .div1 .info p span {
+    color: #449dcd;
+    font-size: 40px;
+}
+
+section .pricing .pricingcontainer .div1 .info p .fa-check {
+    color: green;
+}
+
+section .pricing .pricingcontainer .div1 .info .buynow {
+    margin-top: 50px;
+    width: 50%;
+    background-color: white;
+    color: #47b2e4;
+    border: solid 2px;
+    transition: all .5s ease-in-out;
+}
+
+section .pricing .pricingcontainer .div1:hover .buynow {
+    color: white;
+    border: hidden;
+    background-color: #449dcd;
+
+
+}
+
+
+/* ----------------------------pricing responsive----------------------------------------------------------------------------- */
+/* tablet start==== */
+@media(max-width:768px) {
+    section .pricing {
+        height: 1900px;
+    }
+
+    section .pricing .pricingcontainer {
+        flex-wrap: wrap;
+
+    }
+
+    section .pricing .pricingcontainer .div1 {
+        width: 50%;
+        height: 450px;
+        background-color: white;
+        box-shadow: 3px 3px 20px 3px gray;
+        border-radius: 5px;
+        transition: all .5s ease-in-out;
+        padding: 30px;
+    }
+
+    section .pricing .pricingcontainer .special {
+        margin-left: 0px;
+        margin-bottom: 50px;
+        margin-top: 30px;
+    }
+
+    section .pricing .pricingcontainer .special2 {
+        margin-right: 0px;
+        margin-top: 50px;
+        ;
+    }
+
+
+}
+
+/* tablet end--------------------------------- */
+/* mobile start====================================== */
+@media(max-width:551px) {
+    section .pricing {
+        height: 2100px;
+    }
+
+    section .pricing .pricingcontainer .div1 {
+        width: 50%;
+        height: 500px;
+        background-color: white;
+        box-shadow: 3px 3px 20px 3px gray;
+        border-radius: 5px;
+        transition: all .5s ease-in-out;
+        padding: 30px;
+    }
+
+    section .pricing .pricingcontainer .div1 .info .buynow {
+        margin-top: 30px;
+    }
+
+    section .pricing .portdesc {
+        margin-left: 15px;
+        margin-right: 5px;
+    }
+}
+
+/* mobile end------------------------------------------ */
+/* xlarge screen start ============================================== */
+@media(min-width:2000px) {
+    section .pricing .pricingcontainer .div1 {
+        width: 17%;
+        height: 450px;
+        /* background-color: white;
+        box-shadow: 3px 3px 20px 3px gray;
+        border-radius: 5px;
+        transition:all .5s ease-in-out;
+        padding: 30px; */
+    }
+}
+
+/* xlarge screen end ============================================ */
+/* ===================================================================================================== */
+/* testimonials  */
+section .testimonials {
+    height: 600px;
+    /* background-color: red; */
+
+}
+
+section .testimonials .portfolio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 70px;
+    /* background-color: green; */
+    color: #37517e;
+
+    position: relative;
+    /* border-bottom: solid; */
+    margin-bottom: 50px;
+
+}
+
+section .testimonials .portfolio h1 {
+    margin-top: 50px;
+    font-size: 30px;
+    border-bottom: solid 2px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-color: #413e3e;
+}
+
+section .testimonials .portdesc {
+    color: #413e3e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section .testimonials .owner {
+    height: 300px;
+    width: 20%;
+    /* background-color: #d5d5d5; */
+    margin-left: 40%;
+    margin-top: 20px;
+    ;
+    /* display: flex;
+    justify-content: center; */
+    /* align-items: center; */
+    /* padding: 0px 20px; */
+
+
+}
+
+section .testimonials .owner .elements {
+    margin-left: 25%;
+    width: 50%;
+
+}
+
+section .testimonials .owner .elements h3 {
+    margin-top: 10px;
+    color: #37517e;
+    font-size: 19px;
+
+}
+
+section .testimonials .owner .elements p {
+    margin-top: 10px;
+    color: #b3aeae;
+    font-size: 14px;
+}
+
+section .testimonials .owner .elements .fa-star {
+    margin-top: 10px;
+    color: gold;
+}
+
+section .testimonials .owner .pic {
+    /* background-color:blue; */
+    width: 100%;
+    height: 50%;
+    border-radius: 50%;
+
+}
+
+section .testimonials .owner .pic img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+section .testimonials .notimportant {
+    width: 70%;
+    margin-left: 15%;
+    color: #b3aeae;
+}
+
+section .testimonials .notimportant .fa-quote-right,
+.fa-quote-left {
+    color: #449dcd;
+    font-size: large;
+}
+
+/* responsive */
+/* ===========================tablet start=========================== */
+@media(max-width:768px) {
+    section .testimonials .owner .elements {
+        margin-left: 15%;
+        width: 70%;
+
+    }
+}
+
+/* -------------------tablet end------------------------------ */
+/* ====================mobile start=========================== */
+@media(max-width:551px) {
+    section .testimonials {
+        padding-bottom: 20px;
+        height: auto;
+    }
+
+    section .testimonials .owner {
+        height: 300px;
+        width: 50%;
+        /* background-color: #d5d5d5; */
+        margin-left: 25%;
+        margin-top: 20px;
+        ;
+        /* display: flex;
+        justify-content: center; */
+        /* align-items: center; */
+        /* padding: 0px 20px; */
+
+
+    }
+
+    section .testimonials .owner .elements {
+        margin-left: 15%;
+        width: 70%;
+
+    }
+
+    section .testimonials .notimportant {
+        width: 90%;
+        margin-left: 5%;
+        color: #b3aeae;
+
+    }
+
+    section .testimonials .portdesc {
+        color: #413e3e;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 10px;
+    }
+
+
+
+}
+
+/* -------------------------mobile end------------------------------------------------------------- */
+/*=============================== xlarge screen start======================================== */
+@media(min-width:2000px) {
+    section .testimonials .owner {
+        height: 300px;
+        width: 10%;
+        /* background-color: #d5d5d5; */
+        margin-left: 45%;
+        margin-top: 20px;
+        ;
+        /* display: flex;
+        justify-content: center; */
+        /* align-items: center; */
+        /* padding: 0px 20px; */
+
+
+    }
+
+}
+
+/* ---------------------------------xlarge end------------------------------------------------------------------ */
+/* =================================testimonials end=============================================================== */
+
+/* questions */
+section .questions {
+    background-color: #e4e4e4;
+    width: 100%;
+    height: auto;
+    padding-bottom: 50px;
+
+}
+
+section .questions .portfolio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 70px;
+    /* background-color: green; */
+    color: #37517e;
+
+    position: relative;
+    /* border-bottom: solid; */
+    margin-bottom: 50px;
+
+}
+
+section .questions .portfolio h1 {
+    margin-top: 50px;
+    font-size: 30px;
+    border-bottom: solid 2px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-color: #413e3e;
+}
+
+section .questions .portdesc {
+    color: #413e3e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    margin-left: 15%;
+}
+
+section .questions .box1 {
+    width: 70%;
+    height: 70px;
+    background-color: white;
+    margin-bottom: 15px;
+    padding-top: 15px;
+    box-shadow: 3px 3px 20px 3px gray;
+    margin-left: 15%;
+    margin-top: 50px;
+    padding-left: 20px;
+    transition: all .3s ease-in-out;
+    border-radius: 5px;
+
+}
+
+section .questions .box2 {
+    width: 70%;
+    height: 70px;
+    background-color: white;
+    margin-bottom: 15px;
+    padding-top: 15px;
+    box-shadow: 3px 3px 20px 3px gray;
+    margin-left: 15%;
+    margin-top: 20px;
+    padding-left: 20px;
+    transition: all .3s ease-in-out;
+    border-radius: 5px;
+
+
+}
+
+section .questions .box2:hover {
+    border-left: solid 8px #449dcd;
+}
+
+section .questions .box1:hover {
+    border-left: solid 8px #449dcd;
+}
+
+/* responsive */
+/* mobile star====================================== */
+@media(max-width:551px) {
+    section .questions .portfolio h1 {
+        margin-top: 50px;
+        font-size: 18px;
+        border-bottom: solid 2px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        border-color: #413e3e;
+    }
+
+}
+
+/* ----------------mobile end-------------------------- */
+/* ----------------------------questions end ----------------------------------------------- */
+/* =======================================contact start ================================== */
+section .contact {
+    width: 100%;
+    height: 75vh;
+    /* background-color: red; */
+}
+
+section .contact .portfolio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 70px;
+    /* background-color: green; */
+    color: #37517e;
+
+    position: relative;
+    /* border-bottom: solid; */
+    margin-bottom: 50px;
+
+}
+
+section .contact .portfolio h1 {
+    margin-top: 50px;
+    font-size: 30px;
+    border-bottom: solid 2px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-color: #413e3e;
+}
+
+section .contact .portdesc {
+    color: #413e3e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    margin-left: 15%;
+    margin-bottom: 30px;
+}
+
+section .contact .contactinfo {
+    width: 80%;
+    margin-left: 10%;
+    height: 60vh;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+section .contact .contactinfo .map {
+    width: 40%;
+    height: 100%;
+    /* background-color: green; */
+    box-shadow: 3px 3px 20px 3px gray;
+    border-radius: 5px;
+    border-top: solid 2px #47b2e4;
+    border-bottom: solid 2px #47b2e4;
+}
+
+section .contact .contactinfo .labels {
+    width: 55%;
+    height: 100%;
+    /* background-color: yellow; */
+    box-shadow: 3px 3px 20px 3px gray;
+    border-radius: 5px;
+    border-top: solid 2px #47b2e4;
+    border-bottom: solid 2px #47b2e4;
+}
+
+section .contact .contactinfo .map .mapdash {
+    margin-top: 50px;
+    margin-left: 30px;
+    display: flex;
+
+}
+
+section .contact .contactinfo .map .mapdash .icon {
+    background-color: #47b2e425;
+    width: 20%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+section .contact .contactinfo .map .mapdash .icon .fa-location-dot,
+.fa-phone,
+.fa-envelope {
+    color: #449dcd;
+    width: 50%;
+    height: 50%;
+
+}
+
+section .contact .contactinfo .map .mapdash .icondesc {
+    /* background-color: blue; */
+    width: 60%;
+
+}
+
+section .contact .contactinfo .map .mapdash .icondesc h3 {
+    color: #37517e;
+    margin-bottom: 5px;
+}
+
+section .contact .contactinfo .map .mapdash .icondesc p {
+    color: #706d6d;
+}
+
+section .contact .contactinfo .map .mappic {
+    width: 80%;
+    height: 35%;
+    /* background-color: red; */
+    margin-left: 10%;
+    margin-top: 20px;
+}
+
+section .contact .contactinfo .map .mappic img {
+    width: 100%;
+    height: 100%;
+
+}
+
+section .contact .contactinfo .labels .flexdiv {
+    display: flex;
+    width: 100%;
+    /* background-color: red; */
+    height: 20%;
+    margin-top: 20px;
+    /* justify-content: space-between; */
+}
+
+section .contact .contactinfo .labels .name {
+    width: 45%;
+    height: 90%;
+}
+
+section .contact .contactinfo .labels .mail {
+    width: 45%;
+    height: 90%;
+
+}
+
+section .contact .contactinfo .labels .namelab {
+    width: 100%;
+    margin-left: 7%;
+    height: 40%;
+    border: solid 1px gray;
+}
+
+section .contact .contactinfo .labels .maillab {
+    width: 100%;
+    /* margin-right: 6%; */
+    margin-left: 13%;
+    height: 40%;
+    border: solid 1px gray;
+}
+
+section .contact .contactinfo .labels .flexdiv p {
+    color: #747070;
+    margin-left: 6%;
+    margin-bottom: 3px;
+}
+
+section .contact .contactinfo .labels .subject {
+    /* background-color: blue; */
+    width: 100%;
+    height: 20%;
+
+
+}
+
+section .contact .contactinfo .labels .subject .subjectlab {
+    width: 92%;
+    margin-left: 3%;
+    height: 40%;
+    border: solid 1px gray;
+
+}
+
+section .contact .contactinfo .labels .subject p {
+    color: #747070;
+    margin-left: 3%;
+
+}
+
+section .contact .contactinfo .labels .message {
+    width: 100%;
+    height: 40%;
+    /* background-color: yellow; */
+}
+
+section .contact .contactinfo .labels .message p {
+    color: #747070;
+    margin-left: 3%;
+    margin-bottom: 2px;
+
+
+}
+
+section .contact .contactinfo .labels .message .messagelab {
+    width: 92%;
+    margin-left: 3%;
+    height: 80%;
+    border: solid 1px gray;
+}
+
+section .contact .sendmsg {
+    width: 30%;
+    margin-left: 35%;
+}
+
+/* responsive */
+/* ==============mobile start=================================== */
+@media(max-width:551px) {
+    section .contact {
+        /* background-color: red; */
+        height: 1400px;
+    }
+
+    section .contact .contactinfo .map {
+        width: 80%;
+        margin-left: 10%;
+        /* height: 100%;
+        background-color: green;
+        box-shadow: 3px 3px 20px 3px gray;
+        border-radius: 5px;
+        border-top: solid 2px #47b2e4;
+        border-bottom: solid 2px #47b2e4 ; */
+        margin-bottom: 30px;
+    }
+
+    section .contact .contactinfo .labels {
+        width: 80%;
+        /* height: 100%;
+        background-color: yellow;
+        box-shadow: 3px 3px 20px 3px gray;
+        border-radius: 5px;
+        border-top: solid 2px #47b2e4;
+        border-bottom: solid 2px #47b2e4 ; */
+        margin-left: 10%;
+    }
+
+}
+
+/* ------------------------mobile end------------------------ */
+/* =============footer========================================= */
+footer {
+    height: auto;
+    /* background-color: #d5d5d5; */
+    padding-bottom:50px ;
+    margin-top: 12rem;
+}
+
+footer .endhr {
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+}
+
+footer .prag1 {
+    width: 20%;
+    margin-left: 40%;
+    margin-top: 20px;
+}
+
+footer .prag2 {
+    width: 20%;
+    margin-left: 40%;
+    margin-top: 20px;
+    font-size: 18px;
+}
+@media(max-width:551px){
+    footer .prag1 {
+        width: 50%;
+        margin-left: 25%;
+        margin-top: 20px;
+    }
+    
+    footer .prag2 {
+        width: 50%;
+        margin-left: 25%;
+        margin-top: 20px;
+        font-size: 18px;
+    }
+
+}
+.mapembed{
+    width: 100%;
+    height: 100%;
+    
+}
+/* xlarge  */
+/* @media(max-width:2000px){
+    
+} */
